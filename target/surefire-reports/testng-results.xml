@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Banking" duration-ms="144695" started-at="2019-02-04T17:10:31Z" finished-at="2019-02-04T17:12:56Z">
+    <groups>
+    </groups>
+    <test name="Banking App Test" duration-ms="144695" started-at="2019-02-04T17:10:31Z" finished-at="2019-02-04T17:12:56Z">
+      <class name="com.inetBanking.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setUP(java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginTest_001@3b0143d3]" name="setUP" is-config="true" duration-ms="56343" started-at="2019-02-04T17:10:32Z" finished-at="2019-02-04T17:11:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.inetBanking.testCases.TC_LoginTest_001@3b0143d3]" name="loginTest" duration-ms="11277" started-at="2019-02-04T17:11:28Z" finished-at="2019-02-04T17:11:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teatDown()[pri:0, instance:com.inetBanking.testCases.TC_LoginTest_001@3b0143d3]" name="teatDown" is-config="true" duration-ms="868" started-at="2019-02-04T17:11:40Z" finished-at="2019-02-04T17:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- com.inetBanking.testCases.TC_LoginTest_001 -->
+      <class name="com.inetBanking.testCases.TC_AddCustTest_003">
+        <test-method status="PASS" signature="setUP(java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_AddCustTest_003@5a8e6209]" name="setUP" is-config="true" duration-ms="40895" started-at="2019-02-04T17:11:40Z" finished-at="2019-02-04T17:12:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="addNewCustomerTest()[pri:0, instance:com.inetBanking.testCases.TC_AddCustTest_003@5a8e6209]" name="addNewCustomerTest" duration-ms="33966" started-at="2019-02-04T17:12:21Z" finished-at="2019-02-04T17:12:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomerTest -->
+        <test-method status="PASS" signature="teatDown()[pri:0, instance:com.inetBanking.testCases.TC_AddCustTest_003@5a8e6209]" name="teatDown" is-config="true" duration-ms="809" started-at="2019-02-04T17:12:55Z" finished-at="2019-02-04T17:12:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDown -->
+      </class> <!-- com.inetBanking.testCases.TC_AddCustTest_003 -->
+    </test> <!-- Banking App Test -->
+  </suite> <!-- Banking -->
+</testng-results>
